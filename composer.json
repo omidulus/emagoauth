@@ -1,0 +1,22 @@
+{
+    "name": "emag/oauth",
+    "description": "bla bla",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toma Marius Tomy",
+            "email": "tomatomy2004@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "EmagOauth": "src/"
+        }
+    }
+}
